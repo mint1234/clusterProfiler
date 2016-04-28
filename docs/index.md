@@ -49,19 +49,19 @@ It supports both *hypergeometric test* and *Gene Set Enrichment Analysis* for ma
 + Reactome Pathway (via [ReactomePA](http://www.bioconductor.org/packages/ReactomePA))
 + DAVID (via [RDAVIDWebService](http://www.bioconductor.org/packages/RDAVIDWebService))
 + [Molecular Signatures Database](http://software.broadinstitute.org/gsea/msigdb)
-  * hallmark gene sets
-  * positional gene sets
-  * curated gene sets
-  * motif gene sets
-  * computational gene sets
-  * GO gene sets
-  * oncogenic signatures
-  * immunologic signatures
+	* hallmark gene sets
+	* positional gene sets
+	* curated gene sets
+	* motif gene sets
+	* computational gene sets
+	* GO gene sets
+	* oncogenic signatures
+	* immunologic signatures
 + Other Annotations
-  * from other sources (e.g. [DisGeNET](http://www.disgenet.org/web/DisGeNET/menu/home) as [an example](http://guangchuangyu.github.io/2015/05/use-clusterprofiler-as-an-universal-enrichment-analysis-tool/))
-  * user's annotation
-  * customized ontology
-  * and many others
+	* from other sources (e.g. [DisGeNET](http://www.disgenet.org/web/DisGeNET/menu/home) as [an example](http://guangchuangyu.github.io/2015/05/use-clusterprofiler-as-an-universal-enrichment-analysis-tool/))
+	* user's annotation
+	* customized ontology
+	* and many others
   
 *clusterProfiler* also provides several visualization methods to help interpreting enriched results, including:
 
