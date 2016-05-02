@@ -7,6 +7,12 @@
 
 ## 2016
 
+Critical role of lysosomes in the dysfunction of human Cardiac Stem Cells obtained from failing hearts
+
+**International Journal of Cardiology** Apr. 2016 <http://dx.doi.org/10.1016/j.ijcard.2016.04.155>
+
+![](figures/1-s2.0-S0167527316308506-gr1.jpg)
+
 Unbiased identification of substrates of protein tyrosine phosphatase ptp-3 in *C. elegans*
 
 **Molecular Oncology** Mar. 2016 <http://dx.doi.org/10.1016/j.molonc.2016.03.003>
