@@ -7,6 +7,13 @@
 
 ## 2016
 
+A New Approach for Identification of Cancer-related Pathways using Protein Networks and Genomic Data
+
+**Cancer Inform.** May 2016 <http://dx.doi.org/10.4137%2FCIN.S30800>
+
+![](featured_img/2016_cin-suppl.5-2015-139f8.jpg)
+
+
 Critical role of lysosomes in the dysfunction of human Cardiac Stem Cells obtained from failing hearts
 
 **International Journal of Cardiology** Apr. 2016 <http://dx.doi.org/10.1016/j.ijcard.2016.04.155>
