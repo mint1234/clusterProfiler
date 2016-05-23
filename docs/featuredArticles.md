@@ -5,6 +5,9 @@
 <span class='st_sina_hcount' displayText='Sina'></span>
 <span class='st_linkedin_hcount' displayText='LinkedIn'></span>
 
+Let [us know](https://github.com/GuangchuangYu/clusterProfiler/wiki/feature-articles) if you have published using `clusterProfiler` and your publication will be featured here.
+
+
 ## 2016
 
 A New Approach for Identification of Cancer-related Pathways using Protein Networks and Genomic Data
