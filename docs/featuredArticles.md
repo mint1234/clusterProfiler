@@ -42,7 +42,7 @@ Transcriptional profiling of human smooth muscle cells infected with gingipain a
 
 Identification of crucial regulatory relationships between long non-coding RNAs and protein-coding genes in lung squamous cell carcinoma
 
-**Molecular and Cellular Probes** Feb. 2016 <http://dx.doi.org.eproxy2.lib.hku.hk/10.1016/j.mcp.2016.02.009>
+**Molecular and Cellular Probes** Feb. 2016 <http://dx.doi.org/10.1016/j.mcp.2016.02.009>
 
 ![](featured_img/1-s2.0-S0890850816300196-gr2.jpg)
 
