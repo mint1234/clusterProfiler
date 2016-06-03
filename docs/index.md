@@ -14,7 +14,7 @@ This package implements methods to analyze and visualize functional profiles of 
 ## Project website
 
 
-`clusterProfiler` is released within the [Bioconductor](http://bioconductor.org/packages/clusterProfiler) project and the source code is hosted in <a href="https://github.com/GuangchuangYu/clusterProfiler"><i class="fa fa-github fa-lg"></i> GitHub</a>.
+`clusterProfiler` is released within the [Bioconductor](https://bioconductor.org/packages/clusterProfiler) project and the source code is hosted in <a href="https://github.com/GuangchuangYu/clusterProfiler"><i class="fa fa-github fa-lg"></i> GitHub</a>.
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 
@@ -32,7 +32,7 @@ OMICS: A Journal of Integrative Biology, 2012, 16(5):284-287.
 
 ## Installation
 
-Install `clusterProfiler` is easy, follow the guide in the [Bioconductor page](http://bioconductor.org/packages/clusterProfiler/):
+Install `clusterProfiler` is easy, follow the guide in the [Bioconductor page](https://bioconductor.org/packages/clusterProfiler/):
 
 ```r
 ## try http:// if https:// URLs are not supported
@@ -45,12 +45,12 @@ biocLite("clusterProfiler")
 
 It supports both *hypergeometric test* and *Gene Set Enrichment Analysis* for many ontologies/pathways, including:
 
-+ Disease Ontology (via [DOSE](http://www.bioconductor.org/packages/DOSE))
-+ [Network of Cancer Gene](http://ncg.kcl.ac.uk/) (via [DOSE](http://www.bioconductor.org/packages/DOSE))
++ Disease Ontology (via [DOSE](https://www.bioconductor.org/packages/DOSE))
++ [Network of Cancer Gene](http://ncg.kcl.ac.uk/) (via [DOSE](https://www.bioconductor.org/packages/DOSE))
 + Gene Ontology (supports many species with GO annotation query online via [AnnotationHub](https://bioconductor.org/packages/AnnotationHub/))
-+ KEGG Pathway and Module with latest online data (supports more than 2000 species listed in <http://www.genome.jp/kegg/catalog/org_list.html>)
-+ Reactome Pathway (via [ReactomePA](http://www.bioconductor.org/packages/ReactomePA))
-+ DAVID (via [RDAVIDWebService](http://www.bioconductor.org/packages/RDAVIDWebService))
++ KEGG Pathway and Module with latest online data (supports more than 4000 species listed in <http://www.genome.jp/kegg/catalog/org_list.html>)
++ Reactome Pathway (via [ReactomePA](https://www.bioconductor.org/packages/ReactomePA))
++ DAVID (via [RDAVIDWebService](https://www.bioconductor.org/packages/RDAVIDWebService))
 + [Molecular Signatures Database](http://software.broadinstitute.org/gsea/msigdb)
 	* hallmark gene sets
 	* positional gene sets
@@ -61,7 +61,7 @@ It supports both *hypergeometric test* and *Gene Set Enrichment Analysis* for ma
 	* oncogenic signatures
 	* immunologic signatures
 + Other Annotations
-	* from other sources (e.g. [DisGeNET](http://www.disgenet.org/web/DisGeNET/menu/home) as [an example](http://guangchuangyu.github.io/2015/05/use-clusterprofiler-as-an-universal-enrichment-analysis-tool/))
+	* from other sources (e.g. [DisGeNET](http://www.disgenet.org/web/DisGeNET/menu/home) as [an example](https://guangchuangyu.github.io/2015/05/use-clusterprofiler-as-an-universal-enrichment-analysis-tool/))
 	* user's annotation
 	* customized ontology
 	* and many others
@@ -73,7 +73,7 @@ It supports both *hypergeometric test* and *Gene Set Enrichment Analysis* for ma
 + dotplot
 + enrichMap
 + gseaplot
-+ plotGOgraph (via [topGO](http://www.bioconductor.org/packages/topGO) package)
++ plotGOgraph (via [topGO](https://www.bioconductor.org/packages/topGO) package)
 + upsetplot
   
 and several useful utilities:
@@ -85,18 +85,18 @@ and several useful utilities:
 + go2term (convert GO ID to descriptive term)
 + gofilter (restrict result at specific GO level)
 + gsfilter (restrict result by gene set size)
-+ simplify (remove redundant GO terms, supported via [GOSemSim](http://www.bioconductor.org/packages/GOSemSim))
++ simplify (remove redundant GO terms, supported via [GOSemSim](https://www.bioconductor.org/packages/GOSemSim))
 
 
 ## Documentation
 
 ### Vignettes
 
-<http://bioconductor.org/packages/release/bioc/vignettes/clusterProfiler/inst/doc/clusterProfiler.html>
+<https://bioconductor.org/packages/release/bioc/vignettes/clusterProfiler/inst/doc/clusterProfiler.html>
 
 ### Blog posts
 
-<http://guangchuangyu.github.io/tags/clusterprofiler>
+<https://guangchuangyu.github.io/tags/clusterprofiler>
 
 ## Bugs/Feature requests
 

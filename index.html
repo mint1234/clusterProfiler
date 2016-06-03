@@ -149,7 +149,7 @@
 
 <p>This package implements methods to analyze and visualize functional profiles of genomic coordinates (supported by ChIPseeker), gene and gene clusters.</p>
 <h2 id="project-website">Project website</h2>
-<p><code>clusterProfiler</code> is released within the <a href="http://bioconductor.org/packages/clusterProfiler">Bioconductor</a> project and the source code is hosted in <a href="https://github.com/GuangchuangYu/clusterProfiler"><i class="fa fa-github fa-lg"></i> GitHub</a>.</p>
+<p><code>clusterProfiler</code> is released within the <a href="https://bioconductor.org/packages/clusterProfiler">Bioconductor</a> project and the source code is hosted in <a href="https://github.com/GuangchuangYu/clusterProfiler"><i class="fa fa-github fa-lg"></i> GitHub</a>.</p>
 <p><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"></p>
 <p>Join the group chat in <a href="https://twitter.com/hashtag/clusterProfiler"><i class="fa fa-twitter fa-lg"></i></a> and <a href="http://huati.weibo.com/k/clusterProfiler"><i class="fa fa-weibo fa-lg"></i></a>.</p>
 <h2 id="citation">Citation</h2>
@@ -160,7 +160,7 @@ OMICS: A Journal of Integrative Biology, 2012, 16(5):284-287.
 </code></pre>
 
 <h2 id="installation">Installation</h2>
-<p>Install <code>clusterProfiler</code> is easy, follow the guide in the <a href="http://bioconductor.org/packages/clusterProfiler/">Bioconductor page</a>:</p>
+<p>Install <code>clusterProfiler</code> is easy, follow the guide in the <a href="https://bioconductor.org/packages/clusterProfiler/">Bioconductor page</a>:</p>
 <pre><code class="r">## try http:// if https:// URLs are not supported
 source(&quot;https://bioconductor.org/biocLite.R&quot;)
 ## biocLite(&quot;BiocUpgrade&quot;) ## you may need this
@@ -170,12 +170,12 @@ biocLite(&quot;clusterProfiler&quot;)
 <h2 id="overview">Overview</h2>
 <p>It supports both <em>hypergeometric test</em> and <em>Gene Set Enrichment Analysis</em> for many ontologies/pathways, including:</p>
 <ul>
-<li>Disease Ontology (via <a href="http://www.bioconductor.org/packages/DOSE">DOSE</a>)</li>
-<li><a href="http://ncg.kcl.ac.uk/">Network of Cancer Gene</a> (via <a href="http://www.bioconductor.org/packages/DOSE">DOSE</a>)</li>
+<li>Disease Ontology (via <a href="https://www.bioconductor.org/packages/DOSE">DOSE</a>)</li>
+<li><a href="http://ncg.kcl.ac.uk/">Network of Cancer Gene</a> (via <a href="https://www.bioconductor.org/packages/DOSE">DOSE</a>)</li>
 <li>Gene Ontology (supports many species with GO annotation query online via <a href="https://bioconductor.org/packages/AnnotationHub/">AnnotationHub</a>)</li>
-<li>KEGG Pathway and Module with latest online data (supports more than 2000 species listed in <a href="http://www.genome.jp/kegg/catalog/org_list.html">http://www.genome.jp/kegg/catalog/org_list.html</a>)</li>
-<li>Reactome Pathway (via <a href="http://www.bioconductor.org/packages/ReactomePA">ReactomePA</a>)</li>
-<li>DAVID (via <a href="http://www.bioconductor.org/packages/RDAVIDWebService">RDAVIDWebService</a>)</li>
+<li>KEGG Pathway and Module with latest online data (supports more than 4000 species listed in <a href="http://www.genome.jp/kegg/catalog/org_list.html">http://www.genome.jp/kegg/catalog/org_list.html</a>)</li>
+<li>Reactome Pathway (via <a href="https://www.bioconductor.org/packages/ReactomePA">ReactomePA</a>)</li>
+<li>DAVID (via <a href="https://www.bioconductor.org/packages/RDAVIDWebService">RDAVIDWebService</a>)</li>
 <li><a href="http://software.broadinstitute.org/gsea/msigdb">Molecular Signatures Database</a><ul>
 <li>hallmark gene sets</li>
 <li>positional gene sets</li>
@@ -188,7 +188,7 @@ biocLite(&quot;clusterProfiler&quot;)
 </ul>
 </li>
 <li>Other Annotations<ul>
-<li>from other sources (e.g. <a href="http://www.disgenet.org/web/DisGeNET/menu/home">DisGeNET</a> as <a href="http://guangchuangyu.github.io/2015/05/use-clusterprofiler-as-an-universal-enrichment-analysis-tool/">an example</a>)</li>
+<li>from other sources (e.g. <a href="http://www.disgenet.org/web/DisGeNET/menu/home">DisGeNET</a> as <a href="https://guangchuangyu.github.io/2015/05/use-clusterprofiler-as-an-universal-enrichment-analysis-tool/">an example</a>)</li>
 <li>user's annotation</li>
 <li>customized ontology</li>
 <li>and many others</li>
@@ -202,7 +202,7 @@ biocLite(&quot;clusterProfiler&quot;)
 <li>dotplot</li>
 <li>enrichMap</li>
 <li>gseaplot</li>
-<li>plotGOgraph (via <a href="http://www.bioconductor.org/packages/topGO">topGO</a> package)</li>
+<li>plotGOgraph (via <a href="https://www.bioconductor.org/packages/topGO">topGO</a> package)</li>
 <li>upsetplot</li>
 </ul>
 <p>and several useful utilities:</p>
@@ -214,13 +214,13 @@ biocLite(&quot;clusterProfiler&quot;)
 <li>go2term (convert GO ID to descriptive term)</li>
 <li>gofilter (restrict result at specific GO level)</li>
 <li>gsfilter (restrict result by gene set size)</li>
-<li>simplify (remove redundant GO terms, supported via <a href="http://www.bioconductor.org/packages/GOSemSim">GOSemSim</a>)</li>
+<li>simplify (remove redundant GO terms, supported via <a href="https://www.bioconductor.org/packages/GOSemSim">GOSemSim</a>)</li>
 </ul>
 <h2 id="documentation">Documentation</h2>
 <h3 id="vignettes">Vignettes</h3>
-<p><a href="http://bioconductor.org/packages/release/bioc/vignettes/clusterProfiler/inst/doc/clusterProfiler.html">http://bioconductor.org/packages/release/bioc/vignettes/clusterProfiler/inst/doc/clusterProfiler.html</a></p>
+<p><a href="https://bioconductor.org/packages/release/bioc/vignettes/clusterProfiler/inst/doc/clusterProfiler.html">https://bioconductor.org/packages/release/bioc/vignettes/clusterProfiler/inst/doc/clusterProfiler.html</a></p>
 <h3 id="blog-posts">Blog posts</h3>
-<p><a href="http://guangchuangyu.github.io/tags/clusterprofiler">http://guangchuangyu.github.io/tags/clusterprofiler</a></p>
+<p><a href="https://guangchuangyu.github.io/tags/clusterprofiler">https://guangchuangyu.github.io/tags/clusterprofiler</a></p>
 <h2 id="bugsfeature-requests">Bugs/Feature requests</h2>
 <p>If you have any, <a href="https://github.com/GuangchuangYu/ggtree/issues">let me know</a>. Thx!</p>
 <h2 id="comments">Comments</h2>
@@ -292,5 +292,5 @@ biocLite(&quot;clusterProfiler&quot;)
 
 <!--
 MkDocs version : 0.15.3
-Build Date UTC : 2016-06-02 06:11:33.944182
+Build Date UTC : 2016-06-03 01:37:01.431726
 -->
