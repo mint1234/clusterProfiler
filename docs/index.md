@@ -103,7 +103,7 @@ and several useful utilities:
 ## Feedback ##
 
  - For bugs or feature request, please post to [github issue](https://github.com/GuangchuangYu/clusterProfiler/issues).
- - For user questions, please post to [google group](https://groups.google.com/forum/#!forum/clusterprofiler). We also following every post tagged with **clusterProfiler** on [Bioconductor support site](https://support.bioconductor.org/) or [Biostars](https://www.biostars.org/).
+ - For user questions, please post to [google group](https://groups.google.com/forum/#!forum/clusterprofiler). We are also following every post tagged with **clusterProfiler** on [Bioconductor support site](https://support.bioconductor.org/) and [Biostars](https://www.biostars.org/).
 
 
 ## Comments
