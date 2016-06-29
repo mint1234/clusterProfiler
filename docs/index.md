@@ -98,9 +98,13 @@ and several useful utilities:
 
 <https://guangchuangyu.github.io/tags/clusterprofiler>
 
-## Bugs/Feature requests
 
-If you have any, [let me know](https://github.com/GuangchuangYu/ggtree/issues). Thx!
+
+## Feedback ##
+
+ - For bugs or feature request, please post to [github issue](https://github.com/GuangchuangYu/clusterProfiler/issues).
+ - For user questions, please post to [google group](https://groups.google.com/forum/#!forum/clusterprofiler) or post to [Bioconductor support site](https://support.bioconductor.org/) or [Biostars](https://www.biostars.org/). We are following every post tagged with **clusterProfiler**.
+
 
 ## Comments
 
