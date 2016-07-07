@@ -8,29 +8,31 @@
 <script async src="//static.addtoany.com/menu/page.js"></script>
 <!-- AddToAny END -->
 
+<br>
+The `clusterProfiler` package implements methods to analyze and visualize functional profiles of genomic coordinates (supported by ChIPseeker), gene and gene clusters.
 
-This package implements methods to analyze and visualize functional profiles of genomic coordinates (supported by ChIPseeker), gene and gene clusters.
+`clusterProfiler` is released within the [Bioconductor](https://bioconductor.org/packages/clusterProfiler) project and the source code is hosted on <a href="https://github.com/GuangchuangYu/clusterProfiler"><i class="fa fa-github fa-lg"></i> GitHub</a>.
 
-## Project website
+## <i class="fa fa-user"></i> Author
 
+Guangchuang Yu, School of Public Health, The University of Hong Kong.
 
-`clusterProfiler` is released within the [Bioconductor](https://bioconductor.org/packages/clusterProfiler) project and the source code is hosted in <a href="https://github.com/GuangchuangYu/clusterProfiler"><i class="fa fa-github fa-lg"></i> GitHub</a>.
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-
-Join the group chat in <a href="https://twitter.com/hashtag/clusterProfiler"><i class="fa fa-twitter fa-lg"></i></a> and <a href="http://huati.weibo.com/k/clusterProfiler"><i class="fa fa-weibo fa-lg"></i></a>.
-
-## Citation
+## <i class="fa fa-book"></i> Citation
 
 Please cite the following article when using `clusterProfiler`:
 
-```
-Yu G, Wang L, Han Y and He Q. 
-clusterProfiler: an R package for comparing biological themes among gene clusters.
-OMICS: A Journal of Integrative Biology, 2012, 16(5):284-287. 
-```
 
-## Installation
+__Yu G__, Wang L, Han Y and He Q<sup>*</sup>. clusterProfiler: an R package for comparing biological themes among gene clusters. 
+
+__*OMICS: A Journal of Integrative Biology*__. 2012, 16(5):284-287. 
+
+## <i class="fa fa-pencil"></i> Featured Articles
+
+<img src="featured_img/elife-02077-fig5-v1.jpg" width="650">
+
+<i class="fa fa-hand-o-right"></i> Find out more on <i class="fa fa-pencil"></i> [Featured Articles](https://guangchuangyu.github.io/clusterProfiler/featuredArticles/).
+
+## <i class="fa fa-download"></i> Installation
 
 Install `clusterProfiler` is easy, follow the guide in the [Bioconductor page](https://bioconductor.org/packages/clusterProfiler/):
 
@@ -41,9 +43,9 @@ source("https://bioconductor.org/biocLite.R")
 biocLite("clusterProfiler")
 ```
 
-## Overview
+## <i class="fa fa-cogs"></i> Overview
 
-It supports both *hypergeometric test* and *Gene Set Enrichment Analysis* for many ontologies/pathways, including:
+#### <i class="fa fa-angle-double-right"></i> Supported ontologies/pathways
 
 + Disease Ontology (via [DOSE](https://www.bioconductor.org/packages/DOSE))
 + [Network of Cancer Gene](http://ncg.kcl.ac.uk/) (via [DOSE](https://www.bioconductor.org/packages/DOSE))
@@ -66,7 +68,7 @@ It supports both *hypergeometric test* and *Gene Set Enrichment Analysis* for ma
 	* customized ontology
 	* and many others
   
-*clusterProfiler* also provides several visualization methods to help interpreting enriched results, including:
+#### <i class="fa fa-angle-double-right"></i> Visualization
 
 + barplot
 + cnetplot
@@ -76,7 +78,7 @@ It supports both *hypergeometric test* and *Gene Set Enrichment Analysis* for ma
 + plotGOgraph (via [topGO](https://www.bioconductor.org/packages/topGO) package)
 + upsetplot
   
-and several useful utilities:
+#### <i class="fa fa-angle-double-right"></i> Useful utilities:
 
 + bitr (Biological Id TranslatoR)
 + compareCluster (biological theme comparison)
@@ -87,26 +89,17 @@ and several useful utilities:
 + gsfilter (restrict result by gene set size)
 + simplify (remove redundant GO terms, supported via [GOSemSim](https://www.bioconductor.org/packages/GOSemSim))
 
-
-## Documentation
-
-### Vignettes
-
-<https://bioconductor.org/packages/release/bioc/vignettes/clusterProfiler/inst/doc/clusterProfiler.html>
-
-### Blog posts
-
-<https://guangchuangyu.github.io/tags/clusterprofiler>
+<i class="fa fa-hand-o-right"></i> Find out details and examples on <i class="fa fa-book"></i> [Documentation](https://guangchuangyu.github.io/clusterProfiler/documentation/).
 
 
+## <i class="fa fa-comment"></i> Feedback
+<ul class="fa-ul">
+	<li><i class="fa-li fa fa-hand-o-right"></i> Please make sure you [follow the guide](https://guangchuangyu.github.io/2016/07/how-to-bug-author/) before posting any issue/question</li>
+	<li><i class="fa-li fa fa-bug"></i> For bugs or feature requests, please post to <i class="fa fa-github-alt"></i> [github issue](https://github.com/GuangchuangYu/clusterProfiler/issues)</li>
+	<li><i class="fa-li fa fa-question"></i>  For user questions, please post to [Bioconductor support site](https://support.bioconductor.org/) and [Biostars](https://www.biostars.org/). We are following every post tagged with **clusterProfiler**</li>
+	<li><i class="fa-li fa fa-commenting"></i> Join the group chat on <a href="https://twitter.com/hashtag/clusterProfiler"><i class="fa fa-twitter fa-lg"></i></a> and <a href="http://huati.weibo.com/k/clusterProfiler"><i class="fa fa-weibo fa-lg"></i></a></li>
+</ul>
 
-## Feedback ##
-
- - For bugs or feature request, please post to [github issue](https://github.com/GuangchuangYu/clusterProfiler/issues).
- - For user questions, please post to [google group](https://groups.google.com/forum/#!forum/clusterprofiler). We are also following every post tagged with **clusterProfiler** on [Bioconductor support site](https://support.bioconductor.org/) and [Biostars](https://www.biostars.org/).
-
-
-## Comments
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">

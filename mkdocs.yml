@@ -4,6 +4,7 @@ site_author: Guangchuang Yu
 repo_url: https://github.com/GuangchuangYu/clusterProfiler
 pages:
 - Home: index.md
+- Documentation: documentation.md
 - Featured Articles: featuredArticles.md
 
 copyright: Copyright &copy; 2016 <a href="http://guangchuangyu.github.io">Guangchuang Yu</a>.
