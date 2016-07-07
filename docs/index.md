@@ -34,7 +34,7 @@ __*OMICS: A Journal of Integrative Biology*__. 2012, 16(5):284-287.
 
 ## <i class="fa fa-download"></i> Installation
 
-Install `clusterProfiler` is easy, follow the guide in the [Bioconductor page](https://bioconductor.org/packages/clusterProfiler/):
+Install `clusterProfiler` is easy, follow the guide on the [Bioconductor page](https://bioconductor.org/packages/clusterProfiler/):
 
 ```r
 ## try http:// if https:// URLs are not supported
