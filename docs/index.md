@@ -24,7 +24,7 @@ Please cite the following article when using `clusterProfiler`:
 
 __Yu G__, Wang L, Han Y and He Q<sup>*</sup>. clusterProfiler: an R package for comparing biological themes among gene clusters. 
 
-__*OMICS: A Journal of Integrative Biology*__. 2012, 16(5):284-287. 
+__*OMICS: A Journal of Integrative Biology*__. 2012, 16(5):284-287. doi:[10.1089/omi.2011.0118](http://dx.doi.org/10.1089/omi.2011.0118)
 
 ## <i class="fa fa-pencil"></i> Featured Articles
 
