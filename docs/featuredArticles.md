@@ -8,11 +8,13 @@
 <script async src="//static.addtoany.com/menu/page.js"></script>
 <!-- AddToAny END -->
 
+<link rel="stylesheet" href="https://guangchuangyu.github.io/css/academicons.min.css">
+
 <br>
 Let [us know](https://github.com/GuangchuangYu/clusterProfiler/wiki/feature-articles) if you have published using `clusterProfiler` and your publication will be featured here.
 
 
-<i class="fa fa-hand-o-right"></i> Find out more on [<i class="fa fa-google"></i> google scholar](https://scholar.google.com.hk/scholar?oi=bibs&hl=en&cites=2349076811020942117,6070469372865559425,7160384500065638071).
+<i class="fa fa-hand-o-right"></i> Find out more on [<i class="ai ai-google-scholar"></i> google scholar](https://scholar.google.com.hk/scholar?oi=bibs&hl=en&cites=2349076811020942117,6070469372865559425,7160384500065638071).
 
 ## <i class="fa fa-calendar"></i> 2016
 
