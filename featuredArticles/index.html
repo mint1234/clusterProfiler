@@ -144,6 +144,119 @@
 <p><br>
 Let <a href="https://github.com/GuangchuangYu/clusterProfiler/wiki/feature-articles">us know</a> if you have published using <code>clusterProfiler</code> and your publication will be featured here.</p>
 <p><i class="fa fa-hand-o-right"></i> Find out more on <a href="https://scholar.google.com.hk/scholar?oi=bibs&amp;hl=en&amp;cites=2349076811020942117,6070469372865559425,7160384500065638071"><i class="ai ai-google-scholar"></i> google scholar</a>.</p>
+<!-- google citations -->
+
+<!-- ColumnChart generated in R 3.3.0 by googleVis 0.6.0 package -->
+
+<!-- Fri Jul  8 16:23:52 2016 -->
+
+<!-- jsHeader -->
+
+<script type="text/javascript">
+
+// jsData 
+function gvisDataColumnChartID3ec3ba43ba6 () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+ "2012",
+6 
+],
+[
+ "2013",
+13 
+],
+[
+ "2014",
+18 
+],
+[
+ "2015",
+26 
+],
+[
+ "2016",
+33 
+] 
+];
+data.addColumn('string','year');
+data.addColumn('number','cites');
+data.addRows(datajson);
+return(data);
+}
+
+// jsDrawChart
+function drawChartColumnChartID3ec3ba43ba6() {
+var data = gvisDataColumnChartID3ec3ba43ba6();
+var options = {};
+options["allowHtml"] = [true];
+options["title"] = ["clusterProfiler citations"];
+options["titleTextStyle"] = {color:'firebrick'};
+options["legend"] = {position: 'none'};
+
+
+    var chart = new google.visualization.ColumnChart(
+    document.getElementById('ColumnChartID3ec3ba43ba6')
+    );
+    chart.draw(data,options);
+
+
+}
+
+
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "corechart";
+
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartColumnChartID3ec3ba43ba6);
+})();
+function displayChartColumnChartID3ec3ba43ba6() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+
+// jsFooter
+</script>
+
+<!-- jsChart -->
+
+<p><script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartColumnChartID3ec3ba43ba6"></script></p>
+<!-- divChart -->
+
+<div id="ColumnChartID3ec3ba43ba6" 
+  style="width: 500; height: automatic;">
+</div>
+
+<!-- google citations -->
+
 <h2 id="2016"><i class="fa fa-calendar"></i> 2016</h2>
 <p><a href="http://dx.doi.org/10.1016/j.molonc.2016.03.003">Unbiased identification of substrates of protein tyrosine phosphatase ptp-3 in <em>C. elegans</em></a>. <strong><em>Molecular Oncology</em></strong>. 2016, 10:910-920.</p>
 <p><img alt="" src="../featured_img/1-s2.0-S004565351530309X-gr3.jpg" /></p>
