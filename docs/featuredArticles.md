@@ -17,7 +17,6 @@ Let [us know](https://github.com/GuangchuangYu/clusterProfiler/wiki/feature-arti
 <i class="fa fa-hand-o-right"></i> Find out more on [<i class="ai ai-google-scholar"></i> google scholar](https://scholar.google.com.hk/scholar?oi=bibs&hl=en&cites=2349076811020942117,6070469372865559425,7160384500065638071).
 
 <!-- google citations -->
-
 <!-- ColumnChart generated in R 3.3.0 by googleVis 0.6.0 package -->
 <!-- Fri Jul  8 16:23:52 2016 -->
 
@@ -125,6 +124,7 @@ callbacks.shift()();
 <div id="ColumnChartID3ec3ba43ba6" 
   style="width: 500; height: automatic;">
 </div>
+
 
 <!-- google citations -->
 
