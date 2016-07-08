@@ -18,4 +18,4 @@ mv site/* ./
 rm -rf site
 
 rm -rf __pycache__
-
+rm -rf __init__*
