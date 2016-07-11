@@ -52,7 +52,7 @@
         }, 
         {
             "location": "/documentation/", 
-            "text": "Vignettes\n\n\nhttps://bioconductor.org/packages/release/bioc/vignettes/clusterProfiler/inst/doc/clusterProfiler.html\n\n\n Blog posts\n\n\nhttps://guangchuangyu.github.io/tags/clusterprofiler", 
+            "text": "Vignettes\n\n\nhttps://bioconductor.org/packages/release/bioc/vignettes/clusterProfiler/inst/doc/clusterProfiler.html\n\n\n Blog posts\n\n\n News and updates\n\n\n\n\nclusterProfiler in Bioconductor 2.8\n\n\nclusterProfiler: an R Package for Comparing Biological Themes Among Gene Clusters\n\n\nBioC 3.1: NEWS of my BioC packages\n\n\nBioC 3.2: NEWS of my BioC packages\n\n\nBioC 3.3: NEWS of my BioC packages\n\n\n\n\n ID conversion\n\n\n\n\nconvert biological ID with KEGG API using clusterProfiler\n\n\n\n\n Enrichment analysis\n\n\n\n\nGO analysis using clusterProfiler\n\n\nuse simplify to remove redundancy of enriched GO terms\n\n\nKEGG Module Enrichment Analysis\n\n\nKEGG enrichment analysis with latest online data using clusterProfiler\n\n\nDAVID functional analysis with clusterProfiler\n\n\nfunctional enrichment for GTEx paper\n\n\nuse clusterProfiler as an universal enrichment analysis tool\n\n\nfunctional enrichment analysis with NGS data\n\n\na formula interface for GeneOntology analysis\n \n bioinfoblog.it\n\n\nwhy clusterProfiler fails\n\n\nComparison of clusterProfiler and GSEA-P\n\n\n\n\n Visualization\n\n\n\n\ndotplot for enrichment result\n\n\nenrichment map\n\n\n\n\n Find out more on \nhttps://guangchuangyu.github.io/tags/clusterprofiler\n.\n\n\n Workflow\n\n\n\n\nAn end to end workflow for differential gene expression using Affymetrix microarrays\n\n\nRNAseq workflow", 
             "title": "Documentation"
         }, 
         {
@@ -62,8 +62,33 @@
         }, 
         {
             "location": "/documentation/#blog-posts", 
-            "text": "https://guangchuangyu.github.io/tags/clusterprofiler", 
+            "text": "", 
             "title": " Blog posts"
+        }, 
+        {
+            "location": "/documentation/#news-and-updates", 
+            "text": "clusterProfiler in Bioconductor 2.8  clusterProfiler: an R Package for Comparing Biological Themes Among Gene Clusters  BioC 3.1: NEWS of my BioC packages  BioC 3.2: NEWS of my BioC packages  BioC 3.3: NEWS of my BioC packages", 
+            "title": " News and updates"
+        }, 
+        {
+            "location": "/documentation/#id-conversion", 
+            "text": "convert biological ID with KEGG API using clusterProfiler", 
+            "title": " ID conversion"
+        }, 
+        {
+            "location": "/documentation/#enrichment-analysis", 
+            "text": "GO analysis using clusterProfiler  use simplify to remove redundancy of enriched GO terms  KEGG Module Enrichment Analysis  KEGG enrichment analysis with latest online data using clusterProfiler  DAVID functional analysis with clusterProfiler  functional enrichment for GTEx paper  use clusterProfiler as an universal enrichment analysis tool  functional enrichment analysis with NGS data  a formula interface for GeneOntology analysis    bioinfoblog.it  why clusterProfiler fails  Comparison of clusterProfiler and GSEA-P", 
+            "title": " Enrichment analysis"
+        }, 
+        {
+            "location": "/documentation/#visualization", 
+            "text": "dotplot for enrichment result  enrichment map    Find out more on  https://guangchuangyu.github.io/tags/clusterprofiler .", 
+            "title": " Visualization"
+        }, 
+        {
+            "location": "/documentation/#workflow", 
+            "text": "An end to end workflow for differential gene expression using Affymetrix microarrays  RNAseq workflow", 
+            "title": " Workflow"
         }, 
         {
             "location": "/featuredArticles/", 
