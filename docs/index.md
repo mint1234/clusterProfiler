@@ -91,6 +91,12 @@ biocLite("clusterProfiler")
 
 <i class="fa fa-hand-o-right"></i> Find out details and examples on <i class="fa fa-book"></i> [Documentation](https://guangchuangyu.github.io/clusterProfiler/documentation/).
 
+## <i class="fa fa-code-fork"></i> Projects that depend on clusterProfiler
+
++ [bioCancer](https://www.bioconductor.org/packages/bioCancer/)
++ [debrowser](https://www.bioconductor.org/packages/debrowser/)
+
+<i class="fa fa-hand-o-right"></i> Find out more on <i class="fa fa-github-alt"></i> [github](http://scisoft-net-map.isri.cmu.edu/application/clusterProfiler/gitprojects).
 
 ## <i class="fa fa-comment"></i> Feedback
 <ul class="fa-ul">
