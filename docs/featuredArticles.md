@@ -29,26 +29,11 @@ function gvisDataColumnChartID3ec3ba43ba6 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
- [
- "2012",
-6 
-],
-[
- "2013",
-13 
-],
-[
- "2014",
-18 
-],
-[
- "2015",
-26 
-],
-[
- "2016",
-33 
-] 
+ [ "2012",6 ],
+ [ "2013",13 ],
+ [ "2014",18 ],
+ [ "2015",26 ],
+ [ "2016",33 ] 
 ];
 data.addColumn('string','year');
 data.addColumn('number','cites');
@@ -81,7 +66,6 @@ var pkgs = window.__gvisPackages = window.__gvisPackages || [];
 var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
 var chartid = "corechart";
   
-// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
 var i, newPackage = true;
 for (i = 0; newPackage && i < pkgs.length; i++) {
 if (pkgs[i] === chartid)
@@ -90,7 +74,6 @@ newPackage = false;
 if (newPackage)
   pkgs.push(chartid);
   
-// Add the drawChart function to the global list of callbacks
 callbacks.push(drawChartColumnChartID3ec3ba43ba6);
 })();
 function displayChartColumnChartID3ec3ba43ba6() {
