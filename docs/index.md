@@ -93,6 +93,8 @@ biocLite("clusterProfiler")
 
 ## <i class="fa fa-code-fork"></i> Projects that depend on clusterProfiler
 
+#### <i class="fa fa-angle-double-right"></i> Bioconductor packages
+
 + [bioCancer](https://www.bioconductor.org/packages/bioCancer/)
 + [debrowser](https://www.bioconductor.org/packages/debrowser/)
 
